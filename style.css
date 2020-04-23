@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;   
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h3 {
+    font-family: 'Raleway', sans-serif;
+    margin: 10px auto;
+    width: 90%;  
+}
+header {
+    position: relative;
+    background-image: url("./images/bg-intro.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul {
+    display: flex;  
+}
+li {
+    width: 18px;
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    padding: 32px 39px;
+}
+ .logo{
+    /*width: 20%;*/
+    width: 90px;
+}
+
+path {
+    fill: white;
+}
+h1 {
+     
+}
+p {
+    width: 90%;
+    margin: auto;
+}
+.signup {
+    width: 90%;
+    margin: auto;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+@media screen and (min-width: 790px) {
+    .wrapper {
+        display: flex;
+    }
+    header {
+        width: 50%;
+    }
+    nav {
+        position: absolute;
+        width: 100%;
+        left: 96%;
+    }
+    svg path {
+        fill: black;
+    }
+    main {
+        width: 50%;
+    }
+}
