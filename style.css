@@ -115,13 +115,13 @@ input[type="submit"] {
     }
 }
 
-@media screen and (min-width: 790px) {
+@media screen and (min-width: 820px) {
     .wrapper {
         display: flex;
     }
     header {
         width: 47.5%;
-        background-size: 110%;
+        background-size: cover;
     }
     nav {
         position: absolute;
@@ -134,15 +134,77 @@ input[type="submit"] {
     }
     main {
         width: 50%;
-        padding-top: 145px;
+        padding-top: 20px;
+    }   
+    li {        
+        margin-left: 45px;
     }
-    svg.logo path {
+    .logo {       
+        width: 110px;
+    }
+    svg.logo path {       
         fill: #11191C;
     }
-    h1 {        
-        font-size: 2.7rem;
+    li.gmail {
+        width: 20px;
+    }
+    .twitter svg {
+        transform: scale(1.2);
+    }
+    .fa-facebook-f {
+        transform: scale(1);
+    }    
+    h1 {
+        font-size: 1.5rem;
+        margin: 142px 0 32px 50px;
+        width: 90%;
     }
     p {
-        font-size: 1.3rem;
+        font-size: 1rem;
+        margin: 0px 57px 0 50px;
     }
+    
+    h3 {
+        font-size: 1.5rem;
+        margin: 28px 48px 13px;
+    }
+    .signup {
+        margin-top: 25px;
+    }
+    input[type="submit"] {
+        width: 33%;
+        margin-top: 4px;
+        padding: 22px;
+        font-size: 1.5rem;
+    }   
+    .illustrate img {
+        transform: scale(.6);        
+        top: 0px;        
+    }
+
+    input[type="email"] {
+        width: 53%;
+        margin: 0;
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width: 1180px){
+header {
+    width: 47.5%;
+    background-size: 110%;
+}
+main {       
+    padding-top: 145px;
+}
+h1 {        
+    font-size: 2.7rem;    
+}
+p {
+    font-size: 1.3rem;       
+}
+input[type="submit"] {        
+    width: 28%;        
+}
+
 }
