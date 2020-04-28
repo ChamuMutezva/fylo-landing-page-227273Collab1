@@ -121,11 +121,12 @@ input[type="submit"] {
     }
     header {
         width: 47.5%;
+        background-size: 110%;
     }
     nav {
         position: absolute;
         width: 100%;
-        left: 96%;
+        left: 100%;
         margin-top: 30px;
     }
     svg path {
