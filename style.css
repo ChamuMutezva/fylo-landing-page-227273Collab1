@@ -17,8 +17,13 @@ h3 {
 }
 h1, h3 {
     font-family: 'Raleway', sans-serif;    
-    
 }
+.fa-facebook-f {   
+    transform: scale(.6);
+  }
+  .twitter svg {
+    transform: scale(.6);   
+  }
 header {
     position: relative;
     background-image: url("./images/bg-intro.svg");
@@ -29,7 +34,7 @@ ul {
     display: flex;  
 }
 li {
-    width: 18px;
+    width: 14px;
     list-style: none;
     margin-left: 20px;
 }
@@ -93,6 +98,9 @@ input[type="submit"] {
         margin-right: 30px; 
         font-size: .7rem;   
 }
+.wrapper {
+    padding-bottom: 10px;
+}
 
 @media screen and (min-width:550px) {
     .signup {
@@ -112,12 +120,13 @@ input[type="submit"] {
         display: flex;
     }
     header {
-        width: 50%;
+        width: 47.5%;
     }
     nav {
         position: absolute;
         width: 100%;
         left: 96%;
+        margin-top: 30px;
     }
     svg path {
         fill: black;
@@ -125,5 +134,14 @@ input[type="submit"] {
     main {
         width: 50%;
         padding-top: 145px;
+    }
+    svg.logo path {
+        fill: #11191C;
+    }
+    h1 {        
+        font-size: 2.7rem;
+    }
+    p {
+        font-size: 1.3rem;
     }
 }
