@@ -126,7 +126,7 @@ input[type="submit"] {
     nav {
         position: absolute;
         width: 100%;
-        left: 100%;
+        left: 110%;
         margin-top: 30px;
     }
     svg path {
@@ -140,19 +140,23 @@ input[type="submit"] {
         margin-left: 45px;
     }
     .logo {       
-        width: 110px;
+        width: 135px;
+        margin-left: -31px;
+    margin-top: 30px;
     }
     svg.logo path {       
-        fill: #11191C;
+        fill: #5c7179;
     }
+    
     li.gmail {
-        width: 20px;
+        width: 27px;
+        margin-left: 50px;
     }
     .twitter svg {
         transform: scale(1.2);
     }
     .fa-facebook-f {
-        transform: scale(1);
+        transform: scale(1.2);
     }    
     h1 {
         font-size: 1.5rem;
@@ -178,8 +182,9 @@ input[type="submit"] {
         font-size: 1.5rem;
     }   
     .illustrate img {
-        transform: scale(.6);        
-        top: 0px;        
+        transform: scale(.67);        
+        top: 180px;
+        left: 20px;        
     }
 
     input[type="email"] {
@@ -191,8 +196,8 @@ input[type="submit"] {
 
 @media screen and (min-width: 1180px){
 header {
-    width: 47.5%;
-    background-size: 110%;
+    background-size: 120%;
+    padding-bottom: 60px;
 }
 main {       
     padding-top: 145px;
@@ -206,5 +211,19 @@ p {
 input[type="submit"] {        
     width: 28%;        
 }
+ul {
+    width: 50%;
+    display: flex;
+    margin-top: 38px;
+    padding-left: 61px;
+}
+li.twitter {    
+    transform: scale(1.15);
+    margin-left: 75px;
+}
+li.facebook {
+    margin-left: 60px;
+}
+
 
 }
